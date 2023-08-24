@@ -1,13 +1,13 @@
 const express = require("express");
 
-const { Pool } = require("pg");
+const { Client } = require("pg");
 const cors = require("cors");
 const app = express();
 app.use(cors({
     origin: "*"
 }));
 
-const pool = new Pool({
+const pool = new Client({
     user: "postgress",
     host: "dpg-cjjthh337aks73dcaghg-a",
     database: "demodb_r9dx",
