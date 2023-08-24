@@ -9,9 +9,9 @@ app.use(cors({
 
 const pool = new Pool({
     user: "postgres",
-    host: "localhost",
-    database: "demodb",
-    password: "root",
+    host: "dpg-cjjthh337aks73dcaghg-a",
+    database: "demodb_r9dx",
+    password: "ecLwTLuQyQ5vyheeDHtUI3ZWnkrb8i5J",
     port: 5432,
 });
 
